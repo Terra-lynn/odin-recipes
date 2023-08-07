@@ -12,7 +12,7 @@ body {
 }
 
  h1 {
-    font-family: cursive;
+    font-family: comic-sans, apple-chancery, cursive;
     font-size: 50px;
     margin-top: 5px;
     margin-bottom: -30px;
@@ -29,16 +29,19 @@ div {
 
 .cupcake img{
     border: 5px dotted darkred;
+    border-radius: 25px;
     width: 400px;
 }
 
 .chocolatechip img{
     border: 5px dotted brown;
+    border-radius: 25px;
     width: 400px;
 }
 
 .pumpkinpecan img{
     border: 5px dotted orange;
+    border-radius: 25px;
     width: 400px;
 }
 
@@ -48,4 +51,5 @@ div {
     margin-left: auto;
     margin-right: auto;
     width: 13%;
+    border-radius: 10px;
 }
