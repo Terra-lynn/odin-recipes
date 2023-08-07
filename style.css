@@ -1,32 +1,51 @@
 /* Styles.css */
 
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #e6f8ff;
+    background-color: white;
 }
 
-h1 {
-    background-color: #BFEEFE;
-    font-family: Garamond;
+ h1 {
+    font-family: cursive;
     font-size: 50px;
-    text-align: left;
-    color: black;
-    text-decoration: underline;
-}
-
-h2 {
-    font-family: Garamond;
-    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: -30px;
     text-align: center;
+    color: black;
 }
 
-.baker {
+div {
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.cupcake img{
+    border: 5px dotted darkred;
+    width: 400px;
+}
+
+.chocolatechip img{
+    border: 5px dotted brown;
+    width: 400px;
+}
+
+.pumpkinpecan img{
+    border: 5px dotted orange;
+    width: 400px;
+}
+
+.bakinglogo {
     display: block;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    border: solid rgb(187,237,251);
-}
-
-ul {
-    font-size: 20px;
+    width: 13%;
 }
