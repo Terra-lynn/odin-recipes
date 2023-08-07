@@ -19,28 +19,37 @@ body {
     text-align: center;
     color: black;
 }
-
-div {
-    padding: 20px;
-    margin: auto;
-    align-items: center;
+.recipe-container {
     display: flex;
+    justify-content: center;
+}
+.recipes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px
+    /*align-items: center;
+    display: flex;
+    justify-content: center; */
 }
 
 .cupcake img{
     border: 5px dotted darkred;
+    margin: 10px;
     border-radius: 25px;
     width: 400px;
 }
 
 .chocolatechip img{
     border: 5px dotted brown;
+    margin: 10px;
     border-radius: 25px;
     width: 400px;
 }
 
 .pumpkinpecan img{
     border: 5px dotted orange;
+    margin: 10px;
     border-radius: 25px;
     width: 400px;
 }
