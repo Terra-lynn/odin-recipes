@@ -1,4 +1,3 @@
-This website is designed to share recipes from around the world.
+This is a test website designed to demonstrate my current skillset.
 
-I will be using HTML and CSS to design a simple blog like page. 
-Basic HTML elements, such as headers and image source, will be used.
+Using HTML, I am designing a simple recipe page. Basic HTML elements, such as headers and image sources will be used.
