@@ -1,64 +1,21 @@
-/* Styles.css */
-
-* {
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: white;
+    background-color: rgb(252, 216, 222);
 }
 
- h1 {
-    font-family: comic-sans, apple-chancery, cursive;
-    font-size: 50px;
-    margin-top: 5px;
-    margin-bottom: -30px;
+.title {
+    font-size: 30px;
     text-align: center;
-    color: black;
-}
-.recipe-container {
-    display: flex;
-    justify-content: center;
-}
-.recipes {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 10px
-    /*align-items: center;
-    display: flex;
-    justify-content: center; */
+    background-color: pink;
+    margin: auto;
 }
 
-.cupcake img{
-    border: 5px dotted darkred;
-    margin: 10px;
-    border-radius: 25px;
-    width: 400px;
+h1 {
+    font-family: Garamond, serif;
 }
 
-.chocolatechip img{
-    border: 5px dotted brown;
-    margin: 10px;
-    border-radius: 25px;
-    width: 400px;
-}
-
-.pumpkinpecan img{
-    border: 5px dotted orange;
-    margin: 10px;
-    border-radius: 25px;
-    width: 400px;
-}
-
-.bakinglogo {
-    display: block;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 13%;
-    border-radius: 10px;
+.links {
+    text-align: center;
+    background-color: pink;
+    padding: 8px;
+    margin: -45px 0px 20px;
 }
